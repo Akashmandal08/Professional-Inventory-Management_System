@@ -39,6 +39,7 @@ This project provides a robust solution for tracking inventory items. It allows 
 * **CSV**: Simple text format for data persistence.
 
 ---
+
 ## 📂 Project Structure
 
 . ├── InventoryManagementSystem.java # Main application class, GUI setup ├── Inventory.java # Manages the collection of products, load/save logic ├── Product.java # Abstract base class for products ├── Electronics.java # Concrete product class for Electronics ├── Groceries.java # Concrete product class for Groceries ├── ProductDialog.java # Dialog for adding/editing products ├── GraphPanel.java # JPanel containing JFreeChart graphs ├── ProductNotFoundException.java # Custom exception class ├── inventory.csv # Data storage file (created/updated automatically) └── lib/ # Folder containing external libraries ├── flatlaf-3.4.1.jar # FlatLaf Look and Feel library ├── jcommon-1.0.23.jar # JCommon library (for JFreeChart) └── jfreechart-1.0.19.jar # JFreeChart library
